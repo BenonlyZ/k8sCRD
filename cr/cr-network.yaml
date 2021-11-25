@@ -1,0 +1,7 @@
+apiVersion: mycrd.k8s.io/v1
+kind: Network
+metadata:
+  name: cr-network
+spec:
+  cidr: "1.1.0.0/12"
+  gateway: "1.1.0.1"
